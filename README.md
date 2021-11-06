@@ -20,7 +20,7 @@ In this project, we create an asynchronous web app that uses Web API and user da
 [(Back to top)](#weather-journal-app)
 
 ### Demo Preview
-[Weather Journal App Demo](![image](https://user-images.githubusercontent.com/36416682/140627113-cc153b6d-9d56-49fc-980b-65f8af29ef58.png))
+(![Weather Journal App Demo](https://user-images.githubusercontent.com/36416682/140627113-cc153b6d-9d56-49fc-980b-65f8af29ef58.png))
 
 [(Back to top)](#weather-journal-app)
 
