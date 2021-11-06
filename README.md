@@ -40,9 +40,9 @@ In this project, we create an asynchronous web app that uses Web API and user da
 
 [(Back to top)](#weather-journal-app)
 
-## Author
+### Author
 
-[Enas Hamdy](enas.hamdy94@hotmail.com)
-[Enas Hamdy](https://github.com/EnasHamdy)
+[Email : ](enas.hamdy94@hotmail.com)
+[github: ](https://github.com/EnasHamdy)
 
 [(Back to top)](#weather-journal-app)
