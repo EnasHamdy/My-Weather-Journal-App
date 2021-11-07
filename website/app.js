@@ -4,7 +4,7 @@
 const baseURL = "http://api.openweathermap.org/data/2.5/weather?zip=";
 
 // Set the API key.
-const apiKey = "&appid=e07b480331246612968148dd2117cc53";
+const apiKey = "&appid=e07b480331246612968148dd2117cc53&units=metric";
 
 // Create a new date instance dynamically with JS in the format mm.dd.yy .
 let d = new Date();
@@ -53,9 +53,9 @@ const updateUI = async(url='') =>{
     try{
         const allData = await req.json();
         // Update DOM elements dynamically according to data returned by the app route.        
-        document.getElementById("temp").innerHTML = allData.temperature;
-        document.getElementById("date").innerHTML = allData.date;
-        document.getElementById("content").innerHTML = allData.userResponse;
+        document.getElementById("temp").innerHTML = `Temperature: ${allData.temperature} \u00B0C`;
+        document.getElementById("date").innerHTML = `Date: ${allData.date}`;
+        document.getElementById("content").innerHTML = `Feelings: ${allData.userResponse}`;
     } catch (err){
         alert(err);
     }
